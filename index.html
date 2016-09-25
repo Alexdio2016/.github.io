@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tronenko | Web</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" >
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" >
+<!--//theme-style-->
+	<link rel="icon" type="image/png" href="images/favicon.png"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="#"><img src="images/logo.png" alt="" /></a>
+			</div>
+			<div class="top-nav">
+				<span class="menu"> </span>
+				<ul>
+					<li><a href="#what" class="scroll">What I Do  </a><span>/</span></li>
+					<li><a class="active scroll" href="#portfolio">Portfolio  </a><span>/</span></li>
+					<li><a href="#team" class="scroll"> About Me </a> <span>/</span></li>
+					<li><a href="#contact" class="scroll"> Contact Me</a></li>
+				</ul>
+				<!-- script-nav -->
+			<script>
+			$("span.menu").click(function(){
+				$(".top-nav ul").slideToggle(500, function(){
+				});
+			});
+			</script>
+			<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>
+				<!-- //script-nav -->
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//header-->
+	<!--banner-->
+	<div class="banner">
+		<div class="banner-matter">
+		<p class="no_marge">I'm Alex Tronenko</p>
+			<h2>Creative Web Developer</h2>
+			<p>I interested in working on creative projects with good people.</p>	
+			<a class="more" href="#contact" >Contact Me</a>
+		</div>
+	</div>
+	<!--//banner-->
+	<!--content-->
+	<div class="content">
+			<div class="what-we-do" id="what">
+				<div class="container">
+				<div class="what-we">
+					<h3>W<span>hat I D</span>o</h3>
+					<p>I am creative, hard-working and detail oriented. I love my job and always do my best to make clients completely satisfied.</p>
+				</div>
+				<div class="development">
+					<div class="col-md-4 pencil-line">
+						<img src="images/pencil.png" alt="" />
+						<h4>DEVELOPMENT</h4>
+						<p>Develop sites from simple landing pages to large corporative sites.</p><p>  I specialize in front-end development (HTML5, CSS3, Javascript) and I love WordPress</p>
+						<span class="line"> </span>
+					</div>
+					<div class="col-md-4 pencil-line">
+						<img src="images/set.png" alt="" />
+						<h4>SKILLS</h4>
+					<p>Front-end Development: HTML5, CSS3, JavaScript (Jquery)</p>
+                       <p>WordPress Development: Themes, Admin/Plugin Setup, Custom Functionality</p>
+                        
+						<span class="line"> </span>
+					</div>
+					<div class="col-md-4 pencil-line">
+						<img src="images/ro.png" alt="" />
+						<h4>QA</h4>
+						<p>I am professional 2 years experienced QA tester. No bugs - no problems.</p>
+						<span class="line"> </span>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!--portfolio-->
+		<div class="portfolio-do" id="portfolio">
+			<div class="container">
+				<div class="portfolio-we">
+					<h3>S<span>ome of my latest wor</span>k</h3>
+				</div>
+				
+					<div id="portfoliolist">
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper ">		
+							<a href="http://ultramarin-art.com.ua" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						    <img class="img-responsive" src="images/ultra.jpg" alt="" />
+						    </a>
+						    <a href="http://ultramarin-art.com.ua">
+						     <div class="simple">
+						    	<h5>Ultramarin</h5>
+						    	<p>Corporate site for art school</p>
+						    </div>	</a>	               
+						</div>
+					</div>				
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="project/Index.html" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						    <img class="img-responsive" src="images/pic1.jpg" alt="" /></a>
+						    <a href="project/Index.html">
+						    <div class="simple">
+						    	<h5>KATA KLIMT</h5>
+						    	<p>Training project</p>
+						    </div></a>
+		                </div>
+					</div>		
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="http://www.deti.kh.ua" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img class="img-responsive" src="images/lager.jpg" alt="" /></a>
+						     <a href="http://www.deti.kh.ua" >
+                                <div class="simple">
+                                
+						    	<h5>UltraCute</h5>
+						    	<p>Simple site for children camp</p>
+						    </div> </a>
+		                </div>
+					</div>				
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper ">		
+							<a href="http://cute4.me" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img class="img-responsive" src="images/cutefruit.jpg" alt=""/></a>
+						     <a href="http://cute4.me">
+						     <div class="simple">
+						    	<h5>Cute Fruit</h5>
+						    	<p>Corporate site for english courses</p>
+						    </div></a>
+		                </div>
+					</div>	
+							
+					
+
+					</div>
+					<div class="clearfix"> </div>
+					</div>	
+			<!---- Script for gallery Here --->
+				<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+					$(function () {
+						
+						var filterList = {
+						
+							init: function () {
+							
+								// MixItUp plugin
+								// http://mixitup.io
+								$('#portfoliolist').mixitup({
+									targetSelector: '.portfolio',
+									filterSelector: '.filter',
+									effects: ['fade'],
+									easing: 'snap',
+									// call the hover effect
+									onMixEnd: filterList.hoverEffect()
+								});				
+							
+							},
+							
+							hoverEffect: function () {
+							
+								// Simple parallax effect
+								$('#portfoliolist .portfolio').hover(
+									function () {
+										$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+										$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+									},
+									function () {
+										$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+										$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+									}		
+								);				
+							
+							}
+				
+						};
+						
+						// Run the show!
+						filterList.init();
+						
+						
+					});	
+					</script>
+			<!-- Gallery Script Ends -->
+			</div>
+			
+		</div>
+		<!--team-->
+			<div class="our-team" id="team">
+				<div class="container">
+					<div class="team">
+						<h3>A<span>bout m</span>e</h3>
+						<p>I am sure you just want to check my work out, so I'll be quick. I am not the smartest, but I am smart.
+ I have developed projects for several companies worldwide and local, both independently and in teams, 
+cooperating with other developers and designers. I am creative, hard-working and detail oriented.
+ I love my job and always do my best to make clients completely satisfied.
+If you want to work with me or just say "Hey Alex, how are you doing?" for no reason what so ever, send me an email.</p>
+					</div>
+					
+				</div>
+			</div>
+			<!--contact-->
+			<div class="contact-us" id="contact">
+				<div class="container">
+					<div class="contact">
+						<h3>Co<span>ntact </span>me</h3>
+						<p>ALWAYS INTERESTED IN NEW PROJECTS, JUST SEND ME AN EMAIL AND I'LL GET BACK TO YOUR INQUIRY ASAP.</p>
+					</div>
+					<form method="post" action="https://formspree.io/alexdio2015@gmnail.com">
+						<input type="text" value="Your name"  name="Имя" onfocus="this.value='';" onblur="if (this.value == '') {this.value = Your name';}">
+						<input type="text" value="Your mail"  name="Email" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Your mail';}">
+						<textarea cols="77" rows="6" value=""  name="Сообщение"  onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+						<div class="send">
+						<input type="submit" value="Send message" >
+						</div>
+					</form>
+				</div>
+			</div>
+	
+	<!--//content-->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			 <p class="footer-class">&copy; 2016 </p>
+			 <ul class="social-icons">
+				<li class="facebook"><a href="https://www.facebook.com/profile.php?id=100003121210101"><span > </span></a></li>
+				
+				<li class="inline"><a href="https://www.linkedin.com/in/alexandr-троненко-777919b5?trk=nav_responsive_tab_profile"><span > </span></a></li>
+				<li class="message"><a href="mailto:alexdio2015@gmail.com"><span > </span></a></li>
+			</ul>
+			 <div class="clearfix"> </div>
+		</div>
+		<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+</body>
+</html>
